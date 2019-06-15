@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardBackgroundColor="#4d6c82"
+        android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="4dp">
+
+            <TextView
+                android:id="@+id/etTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/VConductor"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:focusable="true"
+                android:textColorHint="#FFF"
+                android:layout_marginTop="45dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextFlotante"
+                app:counterEnabled="true"
+                app:counterMaxLength="35"
+                app:counterOverflowTextAppearance="@style/CounterOverFlow"
+                app:counterTextAppearance="@style/Counter">
+
+                <EditText
+                    android:id="@+id/txtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/VNombre"
+                    android:textColor="#FFF"
+                    android:ems="10"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:focusable="true"
+                android:textColorHint="#FFF"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextFlotante"
+                app:counterEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtApPat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/VApPat"
+                    android:textColor="#FFF"
+                    android:ems="10"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:focusable="true"
+                android:textColorHint="#FFF"
+                android:layout_marginTop="165dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextFlotante"
+                app:counterEnabled="true">
+
+                <EditText
+                    android:id="@+id/txtApMat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/VApMat"
+                    android:textColor="#FFF"
+                    android:ems="10"
+                    android:inputType="text"/>
+            </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:focusable="true"
+            android:textColorHint="#FFF"
+            android:layout_marginTop="225dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:focusableInTouchMode="true"
+            app:hintTextAppearance="@style/TextFlotante">
+
+            <EditText
+                android:id="@+id/txtMotivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/VMotivo"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="#FFF"/>
+        </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="285dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="270dp"
+                    android:layout_height="55dp"
+                    android:focusable="true"
+                    android:textColorHint="#FFF"
+                    android:focusableInTouchMode="true"
+                    app:hintTextAppearance="@style/TextFlotante">
+
+                    <EditText
+                        android:id="@+id/Cic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/VCIC"
+                        android:ems="10"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="text"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgScan"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_icono_camera" />
+
+            </RelativeLayout>
+
+        </android.support.design.card.MaterialCardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="#4d6c82"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <TextView
+                    android:id="@+id/etTitulo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FFF"
+                    android:text="@string/VVehiculo"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinnerv"
+                    android:layout_width="270dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    style="@android:style/Widget.Holo.Light.Spinner">
+                </Spinner>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="270dp"
+                    android:layout_height="55dp"
+                    android:focusable="true"
+                    android:textColorHint="#FFF"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:focusableInTouchMode="true"
+                    app:hintTextAppearance="@style/TextFlotante">
+
+                    <EditText
+                        android:id="@+id/txtMatricula"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/VMatricula"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="270dp"
+                    android:layout_height="55dp"
+                    android:focusable="true"
+                    android:textColorHint="#FFF"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:focusableInTouchMode="true"
+                    app:hintTextAppearance="@style/TextFlotante">
+
+                    <EditText
+                        android:id="@+id/txtMarca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/VMarca"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="270dp"
+                    android:layout_height="55dp"
+                    android:focusable="true"
+                    android:textColorHint="#FFF"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:focusableInTouchMode="true"
+                    app:hintTextAppearance="@style/TextFlotante">
+
+                    <EditText
+                        android:id="@+id/txtModelo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/VModelo"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="270dp"
+                    android:layout_height="55dp"
+                    android:focusable="true"
+                    android:textColorHint="#FFF"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:focusableInTouchMode="true"
+                    app:hintTextAppearance="@style/TextFlotante">
+
+                    <EditText
+                        android:id="@+id/txtColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/VColor"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textColor="#FFF"/>
+                </android.support.design.widget.TextInputLayout>
+
+            </android.support.v7.widget.CardView>
+            <Button
+                android:id="@+id/VbtnGu"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="GUARDAR"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rec_gradient" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

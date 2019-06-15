@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_vehiculos" >
+        <item>Seleccione Tipo Vehiculo</item>
+        <item>Automovil</item>
+        <item>Motocicleta</item>
+
+    </string-array>
+
+</resources>

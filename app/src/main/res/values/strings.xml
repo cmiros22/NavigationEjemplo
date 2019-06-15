@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">"CDA - Control de Acceso"</string>
+
+    <string name="action_logout">Cerrar Sesión</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_agregar">Registrar Vehiculo</string>
+    <string name="item_recientes">Recientes</string>
+    <string name="item_sincronizar">Sincronizar</string>
+
+    <string name="titulo_comidas_populares">Lo más pedido</string>
+
+    <string name="titulo_tab_platillos">PLATILLOS</string>
+    <string name="titulo_tab_bebidas">BEBIDAS</string>
+    <string name="titulo_tab_postres">POSTRES</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+
+    <string name="titulo_tab_internos">PERSONAL/ALUMNO</string>
+
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_salidas">SALIDA</string>
+
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_info_usuario">Información del usuario</string>
+
+    <!--Etiquetas para el menu lateral -->
+    <string name="Etiqueta_Nombre">CONTROL DE ACCESO</string>
+
+    <!--Etiquetas para el Longin -->
+    <string name="txtUsuario">Usuario</string>
+    <string name="txtPassword">Contraseña</string>
+
+    <!--Etiquetas para el Activity Internos -->
+    <string name="IBBuscar">BUSCAR</string>
+    <string name="ITarjeton">NÚMERO DE TARJETON / TICKET</string>
+    <string name="IConductor">DATOS CONDUCTOR</string>
+    <string name="INombre">Nombre</string>
+    <string name="IApPat">Apellido Paterno</string>
+    <string name="IApMat">Apellido Materno</string>
+
+    <string name="IVehiculo">DATOS VEHICULO</string>
+    <string name="IMarca">Marca</string>
+    <string name="IModelo">Modelo</string>
+    <string name="IMatricula">Matricula</string>
+
+    <!--Etiquetas para el Activity Visitantes -->
+    <string name="VConductor">DATOS CONDUCTOR</string>
+    <string name="VNombre">Nombre</string>
+    <string name="VApPat">Apellido Paterno</string>
+    <string name="VApMat">Apellido Materno</string>
+    <string name="VMotivo">Motivo</string>
+    <string name="VCIC">CIC</string>
+    <string name="VimgCamera">Lector</string>
+
+    <string name="VVehiculo">DATOS VEHICULO</string>
+    <string name="VMarca">Marca</string>
+    <string name="VModelo">Modelo</string>
+    <string name="VColor">Color</string>
+    <string name="VMatricula">Matricula</string>
+
+    <!--Etiquetas para el Activity Agregar Vehiculo -->
+    <string name="IBConductor">BUSCAR CONDUCTOR</string>
+
+    <!--Etiquetas para el Activity Salida -->
+    <string name="SEscanear">ESCANEAR</string>
+
+    <!--Etiquetas para Ventanas Emergentes -->
+    <string name="positive_popup_title_default">ENTRADA REGISTRADA</string>
+    <string name="negative_popup_title_default">¡ENTRADA NO REGISTRADA!</string>
+    <string name="agregado_popup_title">¡VEHICULO AGREGADO!</string>
+
+</resources>

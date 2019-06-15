@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/ic_icono_home"
+            android:title="@string/item_inicio"/>
+        <item
+            android:id="@+id/item_agregar"
+            android:icon="@drawable/ic_icono_add"
+            android:title="@string/item_agregar" />
+        <item
+            android:id="@+id/item_reciente"
+            android:icon="@drawable/ic_icono_timer"
+            android:title="@string/item_recientes" />
+        <item
+            android:id="@+id/item_sincronizar"
+            android:icon="@drawable/ic_icono_sync"
+            android:title="@string/item_sincronizar" />
+    </group>
+</menu>

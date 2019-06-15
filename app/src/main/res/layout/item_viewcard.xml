@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/idImagen"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/idNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VNombre"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryDarkColor"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/idCIC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CIC Visitante"
+                    android:textColor="@color/primaryDarkColor"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:id="@+id/idInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Descripcion"
+                    android:textColor="@color/primaryDarkColor"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/idMarca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marca"
+                    android:textColor="@color/primaryDarkColor"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"/>
+                <TextView
+                    android:id="@+id/idMatricula"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matricula"
+                    android:textColor="@color/primaryDarkColor"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"/>
+            </LinearLayout> -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.card.MaterialCardView>

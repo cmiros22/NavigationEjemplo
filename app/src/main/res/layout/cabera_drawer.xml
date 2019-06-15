@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:gravity="bottom"
+    android:padding="@dimen/padding_izquierdo_cabecera"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <!--
+    <ImageView
+        android:layout_width="@dimen/ancho_logo"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+     -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:rowCount="2">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/icon_"
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="8dp"
+                android:src="@mipmap/ic_launcher_foreground"/>
+            <TextView
+                android:id="@+id/etiqueta_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FFF"
+                android:text="@string/Etiqueta_Nombre"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

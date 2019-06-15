@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/idImagenInternos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_icono_persona"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idNombreConductor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Conductor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+
+        <TextView
+            android:id="@+id/idTipoConductor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Conductor"
+            android:textColor="@color/primaryDarkColor"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.card.MaterialCardView>

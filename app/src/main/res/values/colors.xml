@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#ffffff</color>
+
+    <color name="primaryDarkColor">#002d4c</color>
+    <color name="primaryColor">#002d4c</color>
+    <color name="accentColor">#D81B60</color>
+
+    <color name="background_footer_item_grid_categorias">#90000000</color>
+
+    <color name="color_light">#ffffff</color>
+
+    <color name="background_header_seccion_inicio">#4B4B4B</color>
+
+    <style name="TextFlotante" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="Counter" parent="TextAppearance.Design.Counter">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="CounterOverFlow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textColor">#FF7</item>
+    </style>
+
+</resources>
